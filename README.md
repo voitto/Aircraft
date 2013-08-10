@@ -9,21 +9,21 @@ Install the module with: `npm install aircraft`
 
 Generate an Aircraft app with:
 
-aircraft new myapp
+`aircraft new myapp`
 
-cd myapp
+`cd myapp`
 
-aircraft g model post
+`aircraft g model post`
 
-aircraft g controller post
+`aircraft g controller post`
 
-aircraft g view post show
+`aircraft g view post show`
 
-aircraft g routes post show
+`aircraft g routes post show`
 
 [ edit app.coffee to set your db config ]
 
-coffee -cw .; coffee app.coffee
+`coffee -cw .; coffee app.coffee`
 
 [ browse to http://localhost:4444 ]
 
