@@ -1,0 +1,41 @@
+{
+  "name": "aircraft",
+  "description": "a small framework for web apps",
+  "version": "0.0.1",
+  "homepage": "https://aircraft.vc",
+  "author": {
+    "name": "Brian Hendrickson",
+    "email": "bh@bh.ly",
+    "url": "http://brianhendrickson.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voitto/Aircraft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voitto/Aircraft/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/voitto/Aircraft/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/server.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "pg": "*",
+		"mustache": "*",
+		"jsdom": "*",
+		"krumkake": "*",
+		"keygrip": "*",
+		"jquery": "*",
+		"socket.io": "*"
+  },
+  "keywords": [],
+  "bin": {
+    "aircraft" : "lib/aircraft.js"
+  }
+}

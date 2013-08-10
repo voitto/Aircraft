@@ -1,0 +1,17 @@
+{
+    "name": "aircraftApp",
+    "private": true,
+    "version": "0.0.0",
+    "description": "an Aircraft app",
+    "dependencies": {
+        "aircraft": "*"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js"
+    },
+    "main": "app.js",
+    "repository": "",
+    "author": "",
+    "license": "MIT"
+}
