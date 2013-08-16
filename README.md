@@ -1,4 +1,4 @@
-# aircraft
+# Aircraft
 
 https://aircraft.vc
 
