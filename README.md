@@ -23,17 +23,12 @@ Generate an Aircraft app with:
 
 [ edit app.coffee to set your db config ]
 
-`coffee -cw .; coffee app.coffee`
+`coffee -c .; coffee app.coffee`
 
 [ browse to http://localhost:4444 ]
 
 ```javascript
 
-app = require( 'aircraft' )...
-
-app.get '/', ( req, res ) ->
-  @post = new app.Post
-  @view = new app.Show req, res, null, @post
 
 ```
 
